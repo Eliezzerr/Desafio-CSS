@@ -1,0 +1,98 @@
+body {
+    background-image: url(../image/bg-desktop.svg);
+    background-color: hsl(257, 40%, 49%);
+    background-size: cover;
+    padding: 15px 100px 5px;
+    font-family: "open-sans", sans-serif;
+    max-width: 1440px;
+    min-width: 375px;
+}
+
+.header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin: 20px 0 60px 0;    
+}
+
+.header img {
+    width: 160px;
+    height: 45px;
+}
+
+.container {
+    display: flex;
+    width: 100%;        
+}
+
+.container img {
+    width: 580px;
+    height: auto;
+}
+
+.information {
+    margin: 25px 0 0 65px;    
+}
+
+.information .titlle {
+    color: white;
+    font-size: 2.3rem;
+    width: 450px;
+    font-family: "Poppins", sans-serif;
+    font-weight: 600;
+}
+
+.information .descricao {
+    color: white;
+    font-size: 1rem;
+    font-weight: 400;
+    margin-top: 20px;
+    width: 480px;
+    line-height: 1.4;
+}
+
+.information .registre {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 1.1rem;
+    font-weight: 400;
+    width: 160px;
+    height: 40px;
+    margin-top: 25px;
+    background-color: white;
+    border-radius: 50px;
+    box-shadow: 5px 5px 10px hsl(0, 0%, 0%, 0.2);
+}
+
+.information .registre:hover {
+    color: white;
+    background-color: hsl(300, 69%, 71%);
+    transition: 0.3s;
+}
+
+.social {
+    display: flex;
+    flex-direction: row;
+    justify-content: end;
+    margin-right: 120px;  
+    gap: 10px;
+}
+
+.social a {
+    font-size: 16px;
+    color: white;
+    width: 30px;
+    height: 30px;
+    border: solid 1px white;
+    border-radius: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.social a:hover {
+    color: hsl(300, 69%, 71%);
+    border-color: hsl(300, 69%, 71%);
+    transition: 0.3s;
+}
